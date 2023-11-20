@@ -38,9 +38,9 @@ btn.addEventListener('click', function() {
 // calculation
 
 function computehours() {
-  return Number(seconds.value) / 36000;
+  return Number(seconds.value) / 3600;
 }
 
 function computeseconds() {
-  return Number(hours.value) * 36000;
+  return Number(hours.value) * 3600;
 }
